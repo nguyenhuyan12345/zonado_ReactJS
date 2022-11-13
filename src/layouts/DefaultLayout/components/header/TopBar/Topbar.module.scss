@@ -1,0 +1,40 @@
+:root {
+    --top-bar-height: 41px;
+    --top-bar-font-size: 1.4rem;
+    --top-bar-line-height: 1.6rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    height: var(--top-bar-height);
+
+    .top-right {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .top-right,
+    .top-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link {
+        margin-left: 20px;
+    }
+
+    .item,
+    .link {
+        color: var(--white);
+        height: 100%;
+        font-size: var(--top-bar-font-size);
+        line-height: var(--top-bar-height);
+        text-align: center;
+        .icon {
+            font-size: 1.4rem;
+            margin-right: 5px;
+        }
+    }
+}

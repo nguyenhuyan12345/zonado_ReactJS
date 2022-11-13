@@ -1,0 +1,10 @@
+export { default as HomePage } from './HomePage';
+export { default as NewProductPage } from './NewProductPage';
+export { default as ProductPage } from './ProductPage';
+export { default as SellingPage } from './SellingPage';
+export { default as SalePage } from './SalePage';
+export { default as BlogPage } from './BlogPage';
+export { default as ContactPage } from './ContactPage';
+export { default as LoginPage } from './LoginPage';
+export { default as RegisterPage } from './RegisterPage';
+export { default as SearchPage } from './SearchPage';
