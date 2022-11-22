@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
 import App from './App';
-import GlobalStyles from './components/GlobalStyles';
+import { GlobalStyles } from './components';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';

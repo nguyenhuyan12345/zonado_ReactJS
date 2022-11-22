@@ -11,6 +11,10 @@
     --default-layout-width: 1150px;
     --default-sidebar-width: 340px;
     --default-sidebar-height: 1192px;
+
+    --top-bar-height: 41px;
+    --top-bar-font-size: 1.4rem;
+    --top-bar-line-height: 1.6rem;
 }
 
 html {
@@ -18,10 +22,10 @@ html {
 }
 
 body {
-    font-family: 'Nunito+Sans', sans-serif;
+    font-family: 'Nunito+Sans', sans-serif !important;
     font-size: 1.6rem;
     line-height: 1.5;
-    text-rendering: optimizeSpeed;
+    // text-rendering: optimizeSpeed;
     color: var(--text-color);
 }
 
@@ -46,4 +50,14 @@ a[href] {
 
 li {
     list-style-type: none;
+}
+
+.margins {
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .margins {
+        padding: 0 86px;
+    }
 }

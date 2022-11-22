@@ -21,8 +21,8 @@ function Searchbar() {
     const handleCloseMenuBar = () => setShowMenuBar(false);
     const handleShowMenuBar = () => setShowMenuBar(true);
     return (
-        <Container fluid="md" className={cx('searchBar')}>
-            <Row>
+        <Container fluid="xxl" className={cx('searchBar')}>
+            <Row className={`${cx('searchBarItem')} margins`}>
                 {/* Logo */}
                 <Col xs lg={3}>
                     <a className={cx('logo')} href="/">

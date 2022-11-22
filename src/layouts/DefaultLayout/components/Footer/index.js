@@ -1,9 +1,18 @@
+import { Container } from 'react-bootstrap-v5';
+import classNames from 'classnames/bind';
+import styles from './Footer.module.scss';
+
+import { ShowMores, Newsletters } from './components';
+
+const cx = classNames.bind(styles);
+
 function Footer() {
     return (
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-line"></div>
-            </div>
+        <footer className={cx('footer')}>
+            <Container fluid="lg">
+                <Newsletters />
+                <ShowMores />
+            </Container>
         </footer>
     );
 }

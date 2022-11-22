@@ -1,40 +1,38 @@
-.footer {
-    height: 650px;
-    margin-top: 25px;
-    padding: 40px 0 0;
-    background-color: #0f3057;
-}
-
-.footer > div {
-    padding: 0 86px;
-}
-
-.footer-block {
+.footerBlock {
     color: #fff;
 }
 
-.footer-block > h3 {
+.footerBlock > h3 {
+    font-family: 'Nunito+Sans', sans-serif;
     font-size: 1.6rem;
+    margin-bottom: 15px;
 }
 
-.footer-block > p {
+.footerBlock > p {
+    font-family: 'Nunito+Sans', sans-serif;
     font-size: 1.4rem;
+    margin-bottom: 15px;
 }
 
 .relative {
     display: flex;
     height: 45px;
     margin: 0 0 19px;
+    width: 100%;
 }
 
-#contact_tags,
-#mail {
+.contactTags,
+.mail {
     border-radius: 0;
     font-size: 1.4rem;
     flex-grow: 1;
 }
 
-#subscribe {
+.mail {
+    padding: 0px 10px;
+}
+
+.subscribe {
     font-size: 1.4rem;
     text-align: center;
     min-width: 100px;
@@ -49,19 +47,19 @@
     align-items: center;
 }
 
-.chb-agree {
+.chbAgree {
     width: 18px;
     height: 18px;
 }
 
-.chb-agree ~ label {
+.chbAgree ~ label {
     font-size: 1.4rem;
     color: #ffff;
     line-height: 1.8rem;
     margin-left: 5px;
 }
 
-.footer-line {
+.line {
     margin: 40px 0;
     border-bottom: 2px solid #2f4c6d;
 }

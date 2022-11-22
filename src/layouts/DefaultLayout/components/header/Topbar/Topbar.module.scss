@@ -6,27 +6,29 @@
     color: var(--white);
     font-size: var(--top-bar-font-size);
 
-    .topBarRight {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    .topBarItem {
+        .topBarRight {
+            display: flex;
+            flex-direction: row-reverse;
+        }
 
-    // .topBarLeft {
-    // }
+        // .topBarLeft {
+        // }
 
-    .marquee,
-    .checkOrder,
-    .zocoin {
-        color: var(--white);
-        font-size: var(--top-bar-font-size);
-    }
+        .marquee,
+        .checkOrder,
+        .zocoin {
+            color: var(--white);
+            font-size: var(--top-bar-font-size);
+        }
 
-    .topBarRightIcon {
-        font-size: 1.4rem;
-        margin-right: 5px;
-    }
+        .topBarRightIcon {
+            font-size: 1.4rem;
+            margin-right: 5px;
+        }
 
-    .zocoin {
-        margin-left: 20px;
+        .zocoin {
+            margin-left: 20px;
+        }
     }
 }

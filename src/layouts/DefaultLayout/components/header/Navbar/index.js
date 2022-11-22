@@ -16,10 +16,48 @@ function handleRender(item) {
     }
 }
 
-function Navbar({ navBarItem }) {
+var navBarItem = [
+    {
+        title: 'TRANG CHỦ',
+        href: '/',
+        viewMore: false
+    },
+    {
+        title: 'HÀNG MỚI',
+        href: '/new-products',
+        viewMore: false
+    },
+    {
+        title: 'SẢN PHẨM',
+        href: '/products',
+        viewMore: true
+    },
+    {
+        title: 'BÁN CHẠY',
+        href: '/selling',
+        viewMore: false
+    },
+    {
+        title: 'SALE',
+        href: '/sale',
+        viewMore: true
+    },
+    {
+        title: 'BLOG',
+        href: '/blog',
+        viewMore: false
+    },
+    {
+        title: 'LIÊN HỆ',
+        href: '/contact',
+        viewMore: false
+    }
+];
+
+function Navbar() {
     return (
         <Container>
-            <Row>
+            <Row className={`${cx('navBarRow')} margins`}>
                 <Col xs className={`d-none d-lg-flex ${cx('navBar')}`}>
                     {navBarItem.map((item, index) => {
                         return (
